@@ -1,0 +1,127 @@
+/* Responsive web design */
+@media(max-width: 768px) {
+
+    .navbar {
+        padding: 30px 20px;
+    }
+
+    .nav-content {
+        margin-left: 10px;
+    }
+
+    .nav-content h1 {
+        color: var(--text-color);
+        font-size: 16px;
+        letter-spacing: .5px;
+        line-height: 20px;
+    }
+
+    .nav-content .theme-area {
+        padding-right: 23px;
+    }
+
+    .nav-content .theme-area .theme-icon {
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    .nav-content .theme-area p {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .main-content {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    #search-section {
+        padding-top: 110px;
+    }
+
+    .search-icon {
+        top: 18px;
+    }
+
+    .search-input {
+        width: 360px;
+        padding: 18px 20px 18px 50px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .dropDown-content {
+        top: 50px;
+        right: 70px;
+    }
+
+    #area-section {
+        padding-top: 90px;
+    }
+
+    .region-about {
+        display: grid;
+        grid-template-columns: 50%;
+        justify-content: center;
+        place-items: center !important;
+    }
+
+    .card-img .region-img {
+        width: 300px;
+    }
+
+
+
+    /* Country About page */
+
+    #back-section {
+        padding-top: 130px;
+        padding-left: 30px;
+        width: 200px;
+    }
+
+    .section-content a {
+        padding: 13px 30px;
+    }
+
+    #countryAbout {
+        padding-top: 60px;
+    }
+
+    .main-items {
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+    }
+
+    .flag-img .img {
+        width: 350px !important;
+        height: 250px !important;
+    }
+
+    .country-name {
+        font-size: 22px;
+        padding-top: 30px;
+        margin-left: 18px;
+
+    }
+
+    .country-items {
+        display: flex;
+        flex-direction: column;
+        margin-left: 18px;
+    }
+
+    .second-item {
+        height: 130px;
+    }
+
+    .border-items {
+        align-items: center;
+        padding-bottom: 20px;
+        margin-left: 18px;
+    }
+
+}
