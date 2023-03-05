@@ -33,7 +33,10 @@ function fetchData() {
       console.log(countryData);
     });
 }
-fetchData();
+// fetchData();
+window.addEventListener("load", (event) => {
+  fetchData();
+});
 
 dropDownItem.forEach((item) => {
   item.addEventListener("click", (e) => {
